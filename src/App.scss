@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #16a085;
+    font-family: "Raleway", sans-serif;
+    gap: 10px;
+
+    .quote-box {
+        width: 550px;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 3px;
+
+        .quote-box__icon-text {
+            display: flex;
+            text-align: center;
+
+            .quote-icon {
+                flex-shrink: 0;
+                transform: scale(-1);
+            }
+
+            span {
+                font-size: 1.75rem;
+                font-weight: 500;
+                color: #16a085;
+            }
+        }
+
+        .quote-box__author {
+            margin: 1.2rem 0;
+        }
+
+        .quote-box__author {
+            text-align: right;
+            color: #16a085;
+        }
+
+        .quote-box__footer {
+            display: flex;
+            justify-content: space-between;
+
+            .quote-box__footer--links {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+
+                a {
+                    background-color: #16a085;
+                    padding: 0.4rem 0.6rem;
+                    border-radius: 3px;
+                    display: flex;;
+                }
+
+                svg {
+                    color: white;
+                }
+            }
+
+            .quote-box__footer-btn button {
+                background-color: #16a085;
+                color: white;
+                padding: 0.7rem 1rem;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 0.85rem;
+            }
+        }
+    }
+
+    .credits {
+        color: white;
+        font-size: 0.9rem;
+        word-spacing: 0.2rem;
+
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
