@@ -9,45 +9,50 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    background-color: #16a085;
+    min-height: 100vh;
     font-family: "Raleway", sans-serif;
     gap: 10px;
+    padding: 20px;
+    transition: background-color 1s ease;
 
     .quote-box {
-        width: 550px;
+        width: 100%;
+        max-width: 550px;
         background-color: white;
         padding: 2rem;
         border-radius: 3px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
         .quote-box__icon-text {
             display: flex;
-            text-align: center;
+            gap: 0.5rem;
 
             .quote-icon {
                 flex-shrink: 0;
-                transform: scale(-1);
+                transform: scaleX(-1);
+                margin-top: 4px;
+                transition: color 1s ease;
             }
 
             span {
                 font-size: 1.75rem;
                 font-weight: 500;
-                color: #16a085;
+                line-height: 1.4;
+                transition: color 1s ease;
             }
         }
 
         .quote-box__author {
             margin: 1.2rem 0;
-        }
-
-        .quote-box__author {
             text-align: right;
-            color: #16a085;
+            font-size: 1rem;
+            transition: color 1s ease;
         }
 
         .quote-box__footer {
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             .quote-box__footer--links {
                 display: flex;
@@ -55,10 +60,17 @@
                 align-items: center;
 
                 a {
-                    background-color: #16a085;
-                    padding: 0.4rem 0.6rem;
+                    padding: 0.5rem 0.6rem;
                     border-radius: 3px;
-                    display: flex;;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none;
+                    transition: background-color 1s ease, opacity 0.2s ease;
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
                 }
 
                 svg {
@@ -67,7 +79,6 @@
             }
 
             .quote-box__footer-btn button {
-                background-color: #16a085;
                 color: white;
                 padding: 0.7rem 1rem;
                 border: none;
@@ -75,6 +86,16 @@
                 cursor: pointer;
                 font-weight: bold;
                 font-size: 0.85rem;
+                transition: background-color 1s ease, opacity 0.2s ease;
+
+                &:hover:not(:disabled) {
+                    opacity: 0.9;
+                }
+
+                &:disabled {
+                    cursor: not-allowed;
+                    opacity: 0.7;
+                }
             }
         }
     }
@@ -83,10 +104,15 @@
         color: white;
         font-size: 0.9rem;
         word-spacing: 0.2rem;
+        text-align: center;
 
         a {
             color: white;
             text-decoration: underline;
+
+            &:hover {
+                opacity: 0.9;
+            }
         }
     }
 }
