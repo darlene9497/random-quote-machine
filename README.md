@@ -1,17 +1,32 @@
-# React + Vite
+# Random Quote Machine 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and interactive random quote generator built with React. Get inspired with random quotes and share them on social media with a single click!
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎲 Random Quotes - Fetch inspiring quotes from the DummyJSON Quotes API
+- 🎨 Dynamic Color Themes - Background and UI elements change color with each new quote
+- 🔄 Smooth Transitions - Beautiful 1-second color transitions for a polished user experience
+- 📱 Responsive Design - Works perfectly on desktop, tablet, and mobile devices
+- 🐦 Social Sharing - Share quotes directly to Twitter and Facebook
+- ⚡ Fast & Lightweight - Built with React for optimal performance
 
-## React Compiler
+## Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Live Demo](https://random-quote-machine-three-gamma.vercel.app)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# random-quote-machine
+React - JavaScript library for building user interfaces
+SCSS - CSS preprocessor for better styling organization
+DummyJSON API - External API for fetching random quotes
+Vite - Build tool
+
+## 📬 Contact
+
+If you’d like to connect, collaborate, or discuss web development opportunities, feel free to reach out:
+📧 **Email:** [nyamburanandabi@gmail.com](mailto:nyamburanandabi@gmail.com)  
+💼 **LinkedIn:** [Darlene Nyambura](https://www.linkedin.com/in/darlene-n/)
+
+Copyright (c) 2025 Darlene Nyambura Nandabi
+
