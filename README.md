@@ -17,10 +17,10 @@ A beautiful and interactive random quote generator built with React. Get inspire
 
 ## 🛠️ Technologies Used
 
-React - JavaScript library for building user interfaces
-SCSS - CSS preprocessor for better styling organization
-DummyJSON API - External API for fetching random quotes
-Vite - Build tool
+- React - JavaScript library for building user interfaces
+- SCSS - CSS preprocessor for better styling organization
+- DummyJSON API - External API for fetching random quotes
+- Vite - Build tool
 
 ## 📬 Contact
 
