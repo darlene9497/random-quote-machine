@@ -115,4 +115,16 @@
             }
         }
     }
+    
+    @media (max-width: 768px) {
+    .quote-box {
+        padding: 1rem;
+
+        .quote-box__icon-text {
+            span {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
 }
